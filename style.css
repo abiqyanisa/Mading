@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+header{
+    z-index: 9;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    min-height: 50px;
+    padding: 15px 20px;
+}
+
+header a{
+    font-family: Montserrat;
+    color: #eecb00;
+    font-weight: bold;
+    margin: 5px 10px;
+    text-decoration: none;
+    line-height: 1.2em;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: -.04em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+html,
+body {
+    position: static;
+    height: 100%;
+
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    position: relative;
+    display: flex; 
+}
+
+.swiper-slide img {
+    z-index: 0;
+    display: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide #myVideo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: absolute;
+    object-fit: cover;
+}
+
+.swiper-slide .content {
+    padding: 15% 200px;
+    z-index: 8;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.swiper-slide .content h1{
+    color: #fff;
+    z-index: 2;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 100%;
+}
+
+
+.swiper-slide .content span{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: #eecb00;
+}
+
+.swiper-slide .content p {
+    bottom: 0;
+    font-size: 22px;
+    z-index: 2;
+    color: #fff;
+    margin-top: 0px;
+}
+
+
+

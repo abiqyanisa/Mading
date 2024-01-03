@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mading Himakom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Demo styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <style>
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      color: #eecb00;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #eecb00;
+    }
+
+    @media screen and (max-width: 1040px) {
+      header {
+        min-height: 20px;
+      }
+      header a {
+        margin: 5px;
+        line-height: 0em;
+        font-size: 1.3em;
+      }
+      .swiper-slide .content {
+        padding: 15% 100px;
+      }
+      .swiper-slide .content h1{
+        font-size: 4.5vw;
+      }
+      .swiper-slide .content span{
+        font-size: 2.5vw;
+      }
+      .swiper-slide .content p{
+        font-size: 15px;
+      } 
+    }
+    @media screen and (max-width: 600px) {
+        .swiper-slide .content {
+          padding: 20% 30px;
+        }
+        .swiper-slide .content h1 {
+          font-size: 7vw;
+          letter-spacing: 1px;
+        }
+        .swiper-slide .content span {
+          font-size: 3.5vw;
+        }
+        .swiper-slide .content p {
+          font-size: 11.5px;
+          margin-top: 10px;
+        }
+        .swiper-button-next, .swiper-button-prev {
+          visibility: hidden;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+          margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 1px);
+        }
+    }
+  </style>
+</head>
+
+<body>
+    <header>
+        <!-- silakan ganti dengan header asli -->
+        <a>Himakom</a>
+    </header>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!-- HIMAKOM -->
+      <div class="swiper-slide">
+        <video autoplay muted loop id="myVideo">
+          <source src="mading.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+          <h1>
+            HIMAKOM<br>
+            (Himpunan Mahasiswa Ilmu Komputer)<br>
+            Periode 2023<br><br>
+          </h1>
+          <span>
+            Dalam keluarga Himakom, setiap kode memiliki arti, setiap inovasi membawa makna,<br>
+            dan setiap anggota adalah bagian dari cerita besar dalam Ilmu Komputer.</span>
+        </div>
+      </div>
+
+      <!-- PELANTIKAN KEPENGURUSAN -->
+      <div class="swiper-slide">
+        <img src="img/himakom.jpg">
+        <div class="content">
+          <h1>
+            Pelantikan Kepengurusan<br>
+            <span>25 Februari 2023</span>
+          </h1>
+          <p>
+            Dengan penuh semangat dan antusiasme, Himakom Universitas Lampung resmi melantik kepengurusan baru dalam sebuah acara yang diselenggarakan di Gedung Ilmu Komputer tercinta. Suasana pelantikan begitu terasa saat para pengurus terpilih secara resmi mengambil sumpah jabatan mereka, menandai awal perjalanan kepemimpinan yang diharapkan membawa inovasi dan prestasi baru di ranah ilmu komputer. Acara pelantikan ini bukan hanya sekadar seremonial, tetapi merupakan langkah awal menuju capaian-capaian besar yang diharapkan oleh seluruh komunitas mahasiswa ilmu komputer.
+            <br><br>
+            Dengan acara pelantikan ini, Himakom membuktikan bahwa semangat dan antusiasme mahasiswa dalam mengembangkan diri dan organisasinya tidak pernah surut. Perjalanan baru pun dimulai, dan harapan tinggi tersemat pada kepengurusan yang baru dilantik untuk menjadikan Himpunan Komputer sebagai pionir inovasi dan keunggulan di bidang teknologi informasi.
+          </p>
+        </div>
+      </div>
+
+      <!-- FORUM WISUDA -->
+      <div class="swiper-slide">
+        <img src="img/forwis.jpg">
+        <div class="content">
+          <h1>
+            Forum Wisuda<br>
+            <span>18 Mar, 20 Mei, 22 Jul, 15 Sep, 18 Nov 2023</span>
+          </h1>
+          <p>
+            Dalam suasana penuh kegembiraan dan kebanggaan, Himakom menggelar forum wisuda berbentuk arak-arakan yang semarak untuk para wisudawan/i Ilmu Komputer Universitas Lampung. Acara yang diadakan pada setiap periode wisuda ini menjadi sorotan utama dengan pesona dan kreativitas yang melibatkan seluruh komunitas akademis. Dengan mengenakan jubah wisuda yang anggun, para lulusan berkumpul di lapangan kampus untuk memulai prosesi arak-arakan yang tak terlupakan. Dibuka dengan semangat penuh dari pawai musik, arak-arakan ini melibatkan elemen-elemen kreatif yang mencerminkan perjalanan akademis dan kecemerlangan para wisudawan di perguruan tinggi.
+            <br><br>
+            Acara dilanjutkan dengan pidato-pidato inspiratif dari wisudawan, memberikan kesan mendalam tentang perjalanan akademis para lulusan. Forum wisuda ini tidak hanya menjadi momen penyudahan studi, tetapi juga menjadi kesempatan bagi mahasiswa Ilmu Komputer untuk merayakan keberhasilan mereka dalam suasana yang hangat dan penuh kebersamaan.
+          </p>
+        </div>
+      </div>
+
+      <!-- LOKAKARYA -->
+      <div class="swiper-slide">
+        <img src="img/lokakarya.jpg">
+        <div class="content">
+          <h1>
+            LokaKarya Himakom<br>
+            <span>25 Maret 2023</span>
+          </h1>
+          <p>
+            Dengan semangat membangun sinergi antara mahasiswa Ilmu Komputer, Himakom menggelar lokakarya bertema "Meningkatkan Kinerja Pengurus dengan Semangat Penuh Profesionalitas". Lokakarya ini bertujuan untuk menyampaikan secara rinci program kerja Himakom periode mendatang kepada seluruh anggota, sekaligus membuka ruang diskusi untuk mendengar aspirasi dan ide. Acara ini dapat menjadi momentum penting dalam mempererat hubungan antara pengurus Himakom dan anggota, menciptakan lingkungan yang inklusif dan berpartisipasi.
+            <br><br>
+            Seluruh pengurus Himakom diundang untuk bergabung dalam lokakarya ini guna memahami lebih dalam program-program yang akan dijalankan Himakom serta turut berkontribusi dalam pembentukan dan suksesnya kegiatan-kegiatan tersebut. Sehingga acara ini dapat menjadi titik awal sinergi yang erat antara pengurus Himakom dan anggota demi meningkatkan kualitas pengalaman mahasiswa Ilmu Komputer di kampus ini.
+          </p>
+        </div>
+      </div>
+      
+      <!-- BUKBER -->
+      <div class="swiper-slide">
+        <img src="img/bukber.jpg">
+        <div class="content">
+          <h1>
+            Buka Bersama<br>
+            <span>08 April 2023</span>
+          </h1>
+          <p>
+            Dalam rangka mempererat tali silaturahmi dan membangun kebersamaan di bulan suci Ramadan, Himakom menggelar acara Bukber (Buka Bersama) yang penuh kehangatan. Acara ini direncanakan berlangsung di Adin Rooftop Cafe. Bukber Himakom menjadi ajang berkumpulnya seluruh anggota Himakom untuk berbagi kebahagiaan dan berkat Ramadan. Dengan menu beragam hidangan khas dan suasana yang penuh keakraban, anggota Himakom dapat saling berinteraksi dan merayakan kebersamaan di bulan penuh berkah ini.
+            <br><br>
+            Selain kegiatan makan bersama, acara ini juga akan dimeriahkan dengan sesi game bersama dan pembagian doorprize sebagai bentuk apresiasi untuk kehadiran anggota. Diharapkan, Bukber Himakom tidak hanya menjadi moment santap bersama, tetapi juga memperkuat ikatan kekeluargaan di antara anggota, menciptakan kenangan yang tak terlupakan dalam suasana penuh berkah Ramadan.
+          </p>
+        </div>
+      </div>
+
+      <!-- HINCAR TIK -->
+      <div class="swiper-slide">
+        <img src="img/hincartik.JPG">
+        <div class="content">
+          <h1>
+            Hincar Tik<br>
+            <span>6 Mei - 12 Juli 2023</span>
+          </h1>
+          <p>
+            "Himakom Mencari Juara Teknologi dan Ilmu Komputer" dirancang sebagai sarana yang memadukan keterampilan teknologi dan ilmu komputer melalui serangkaian pelatihan intensif. Acara ini merupakan rangkaian pelatihan menuju lomba Gemastik 2023. Para peserta akan mendapatkan pemahaman mendalam mengenai tren terkini di dunia teknologi, pemrograman, dan pengembangan perangkat lunak melalui sesi-sesi workshop dan presentasi yang dipandu oleh praktisi dan pakar di bidangnya. Peserta juga akan diajak untuk meningkatkan kemampuan mereka dan mempersiapkan diri secara optimal untuk menghadapi lomba yang akan datang.
+            <br><br>
+            Melalui Hincar Tik Himakom bertujuan untuk menciptakan suasana belajar yang intensif dan kolaboratif, memberikan dorongan bagi para mahasiswa Ilmu Komputer untuk mengasah keterampilan teknologi mereka dan bersaing secara positif dalam lomba Gemastik. Acara ini dapat menjadi langkah awal menuju prestasi gemilang di bidang teknologi dan ilmu komputer.
+          </p>
+        </div>
+      </div>
+
+      <!-- HGTC -->
+      <div class="swiper-slide">
+        <img src="img/hgtc.jpg">
+        <div class="content">
+          <h1>
+            HGTC: Himakom goes to Campus<br>
+            <span>16 Mei, 4 Okt, 4 Nov 2023</span>
+          </h1>
+          <p>
+            Semangat mempererat jalinan persahabatan antar-himpunan mahasiswa dilakukan Himakom melalui acara "HGTC: Himakom Goes to Campus." Acara silaturahmi ini mengunjungi Himpunan Mahasiswa Teknik Informatika Universitas Teknokrat, Himpunan Mahasiswa Fisika (Himafi) Universitas Lampung, serta Himpunan Mahasiswa Ilmu Komunikasi Universitas Lampung. Rangkaian acara HGTC mencakup sesi sambutan dan pembukaan, diskusi panel yang melibatkan perwakilan dari masing-masing himpunan. HGTC tidak hanya menjadi ajang untuk bertukar ide dan pandangan, tetapi juga menjadi kesempatan untuk membangun jejaring yang kokoh di antara mahasiswa berbagai jurusan.
+            <br><br>
+            HGTC dapat menjadi titik awal bagi kolaborasi yang lebih erat antar-himpunan mahasiswa, menciptakan ruang untuk pertukaran pengetahuan, dan memperluas cakupan aktivitas bersama. Himakom meyakini bahwa melalui HGTC, hubungan antar-himpunan mahasiswa di masing-masing universitas dapat tumbuh lebih kuat, memberikan dampak positif bagi seluruh mahasiswa yang terlibat.
+          </p>
+        </div>
+      </div>
+      
+      <!-- PELATIHAN INTERNAL -->
+      <div class="swiper-slide">
+        <img src="img/pelatihaninternal.jpg">
+        <div class="content">
+          <h1>
+            Pelatihan Internal<br>
+            <span>24 Mei, 1 Okt, 19 Nov 2023</span>
+          </h1>
+          <p>
+            Pelatihan Internal dilangsungkan oleh Himakom dalam rangka meningkatkan keterampilan dan kemampuan anggota. Acara ini akan mencakup serangkaian pelatihan yang dirancang khusus untuk memperkuat keterampilan public speaking, pembelajaran Git, serta pelatihan Laravel.
+            <br><br>
+            Pelatihan public speaking mengajak peserta untuk mengasah kemampuan berbicara di depan umum. Kemuadian pembelajaran Git tentang manfaat dan cara praktis menggunakan Git untuk mengelola proyek perangkat lunak dengan lebih efisien. Terakhir pelatihan laravel perihal langkah-langkah dan cara membangun web menggunakan Laravel. Melalui acara Pelatihan Internal ini, Himakom berkomitmen untuk memberikan nilai tambah yang signifikan bagi perkembangan pribadi dan profesional anggotanya.
+          </p>
+        </div>
+      </div>
+
+      <!-- PROGRAMMER -->
+      <div class="swiper-slide">
+        <img src="img/programmer.JPG">
+        <div class="content">
+          <h1>
+            Programmer<br>
+            <span>3 Juni 2023</span>
+          </h1>
+          <p>
+            Dalam semangat kekeluargaan dan mempererat jalinan antara anggota, Himakom melangsungkan acara "Program Ramah Tamah Ilmu Komputer." Acara ini dijadwalkan berlangsung di Taman Betung. Programmer bertujuan untuk menciptakan ruang akrab di antara mahasiswa Ilmu Komputer dan alumni Himakom. Mengundang seluruh anggota Himakom baik yang sedang menempuh pendidikan maupun yang sudah menjadi bagian dari alumni untuk hadir dan berbagi pengalaman, acara ini bukan hanya tentang mempererat ikatan antaranggota, tetapi juga untuk menciptakan hubungan yang berkesinambungan antara angkatan muda dan yang lebih senior.
+            <br><br>
+            Acara ini juga akan menjadi momen yang tepat untuk memperkenalkan program-program unggulan yang akan dijalankan Himakom dalam waktu mendatang. Melalui Programmer, akan terjalin kolaborasi yang kuat antara anggota dan alumni, menciptakan jejaring yang bermanfaat untuk pengembangan ilmu dan juga karir di dunia teknologi.
+          </p>
+        </div>
+      </div>
+      
+      <!-- UPGRADING -->
+      <div class="swiper-slide">
+        <img src="img/upgrading.jpg">
+        <div class="content">
+          <h1>
+            Upgrading Himakom<br>
+            <span>17 - 18 Juni 2023</span>
+          </h1>
+          <p>
+            Himakom menggelar acara "Upgrading" di Camp 91 selama 2 hari 1 malam. Acara ini menampilkan serangkaian kegiatan yang bertujuan untuk meningkatkan kualitas organisasi dan membangun sinergi di antara anggota. Dalam suasana alam yang tenang, anggota Himakom aktif terlibat dalam workshop, pelatihan, dan kegiatan luar ruangan yang memperkuat hubungan antaranggota. Sesi brainstorming dan perencanaan strategis menghasilkan ide-ide inovatif serta inspiratif saat para anggota mendengarkan pembicara inspirasional yang membagikan pengalaman dan wawasannya di bidang keorganisasian.
+            <br><br>
+            Puncak acara terjadi pada malam terakhir di bawah langit berbintang, di mana api unggun menjadi saksi semangat kebersamaan yang berkobar. Proses perubahan positif dan semangat tim yang tercipta selama Upgrading tidak hanya memberikan fondasi yang kuat untuk organisasi ini, tetapi juga menciptakan ikatan yang erat di antara para anggota.
+          </p>
+        </div>
+      </div>
+      
+      <!-- HGTI -->
+      <div class="swiper-slide">
+        <img src="img/hgti.jpg">
+        <div class="content">
+          <h1>
+            HGTI: Himakom goes to Industry<br>
+            <span>22, 26, 27 Juni 2023</span>
+          </h1>
+          <p>
+            Mengunjungi Kominfo, BPS, dan OJK di Bandar Lampung, "HGTI: Himakom goes to Industry" dirancang sebagai kegiatan eksplorasi yang memungkinkan mendapatkan pemahaman yang lebih mendalam mengenai dunia akademis dan potensi karir di luar lingkup perkuliahan. Selain itu, para peserta HGTI akan memiliki kesempatan untuk berinteraksi langsung dengan perwakilan dari perusahaan-perusahaan di bidang teknologi. Pameran teknologi akan memberikan mahasiswa peluang untuk menjalin jejaring dan mengeksplorasi opsi karir yang tersedia.
+            <br><br>
+            Dengan menggabungkan aspek teori dan praktik, acara ini diharapkan dapat memberikan wawasan komprehensif kepada mahasiswa mengenai tuntutan dan peluang di dunia industri teknologi. Melalui HGTI, Himakom berkomitmen untuk membuka pintu-pintu peluang dan menginspirasi mahasiswa Ilmu Komputer untuk mengukir karir gemilang.
+          </p>
+        </div>
+      </div>
+
+      <!-- PELATIHAN DOKUM -->
+      <div class="swiper-slide">
+        <img src="img/pelatihandokum.JPG">
+        <div class="content">
+          <h1>
+            Pelatihan Dokumentasi, Desain, dan Editing<br>
+            <span>1 Jul, 15 Jul, 9 Sep, 17 Sep 2023</span>
+          </h1>
+          <p>
+            Dalam rangka meningkatkan keterampilan dan pemahaman dalam bidang dokumentasi, desain, dan editing, Himakom menyelenggarakan pelatihan yang dirancang sebagai forum yang menyeluruh. Para peserta akan dibimbing melalui sesi-sesi interaktif yang mencakup teknik dokumentasi yang efektif, dasar desain grafis, dan skill editing yang menarik dan informatif. Peserta akan diajak untuk mengembangkan keterampilan dokumentasi yang mencakup pengambilan gambar, mendapatkan wawasan tentang bagaimana membuat desain yang menarik dan efektif untuk keperluan promosi dan lainnya, serta mempelajari teknik-teknik dasar editing, pemilihan materi, dan cara menyusun konten agar memberikan dampak maksimal. Para peserta akan mendapatkan panduan dan arahan dari para ahli di masing-masing bidang, serta memiliki kesempatan untuk terlibat dalam sesi praktik langsung. Acara ini dapat memberikan bekal keterampilan praktis yang dapat diterapkan dalam berbagai proyek, baik dalam lingkup akademis maupun di luar kampus.
+          </p>
+        </div>
+      </div>
+      
+      <!-- BAGAN -->
+      <div class="swiper-slide">
+        <img src="img/bagankepengurusan.jpeg">
+        <div class="content">
+          <h1>
+            Bagan Kepengurusan<br>
+            <span>16 Juli 2023</span>
+          </h1>
+          <p>
+            Dalam rangka mencapai keteraturan dan efisiensi dalam pengelolaan organisasi, Himakom menyelenggarakan program kerja pembuatan bagan kepengurusan. Progja ini bertujuan untuk menciptakan representasi visual yang jelas dan mudah dipahami tentang struktur organisasi Himakom. Program kerja ini akan melibatkan berbagai kegiatan, termasuk identifikasi peran dan tanggung jawab masing-masing anggota kepengurusan, pengembangan hierarki yang efisien, serta pembuatan bagan alur komunikasi dan pengambilan keputusan di dalam organisasi. Bagan kepengurusan ini akan mencakup seluruh jajaran pengurus yang terlibat dalam menjalankan roda organisasi.
+            <br><br>
+            Melalui bagan kepengurusan yang jelas dan terstruktur dengan baik akan menjadi panduan yang berguna bagi anggota organisasi, serta memberikan fondasi yang solid untuk pencapaian tujuan Himakom di masa mendatang.
+          </p>
+        </div>
+      </div>
+      
+      <!-- HUT -->
+      <div class="swiper-slide">
+        <img src="img/hut.jpg">
+        <div class="content">
+          <h1>
+            HUT Himakom<br>
+            <span>30 Juli 2023</span>
+          </h1>
+          <p>
+            Dengan sukacita dan semangat kebersamaan, Himakom melangsungkan perayaan Hari Ulang Tahun Himakom. Acara ini akan menjadi momen bersejarah yang memperingati pencapaian, kebersamaan, serta kontribusi berharga Himakom selama bertahun-tahun. Acara ini akan menjadi wadah untuk mengenang perjalanan Himakom sejak berdiri, menggugah nostalgia, dan merayakan prestasi-prestasi yang telah dicapai oleh organisasi ini.
+            <br><br>
+            HUT Himakom bukan hanya perayaan sejarah, tetapi juga panggilan untuk terus melangkah maju menuju masa depan yang lebih cemerlang. Himakom mengundang seluruh keluarga besar Himakom, baik anggota aktif maupun alumni, untuk merayakan dan mengukir sejarah bersama dalam acara HUT ini. Sehingga perayaan HUT Himakom menjadi simbol kebersamaan, inspirasi, dan semangat baru untuk perjalanan yang tak terbatas ke depan.
+          </p>
+        </div>
+      </div>
+      
+      <!-- HGTS -->
+      <div class="swiper-slide">
+        <img src="img/hgts.JPG">
+        <div class="content">
+          <h1>
+            HGTS: Himakom Goes to School<br>
+            <span>12 Agustus 2023</span>
+          </h1>
+          <br>
+          <p>
+            Dengan semangat untuk membagikan wawasan dan semangat teknologi kepada generasi muda, Himakom melaksanakan acara "HGTS: Himakom Goes to School." Acara ini dilaksanakan di sejumlah sekolah menengah di sekitar wilayah kampus. HGTS bertujuan membawa dunia Ilmu Komputer dan teknologi langsung ke dalam kelas-kelas sekolah. Para anggota Himakom memberikan presentasi interaktif, workshop, dan sesi tanya jawab untuk memperkenalkan dunia teknologi, keberagaman profesi di bidang Ilmu Komputer, serta memberikan gambaran mengenai studi di Universitas Lampung.
+            <br><br>
+            HGTS juga memberikan kesempatan bagi para siswa untuk bertemu langsung dengan mahasiswa Ilmu Komputer, bertanya tentang pengalaman studi mereka, dan mendapatkan gambaran nyata mengenai kehidupan kampus. Melalui acara ini, Himakom ingin memberikan kontribusi positif dalam menciptakan minat dan semangat belajar di bidang Ilmu Komputer di kalangan generasi muda.
+          </p>
+        </div>
+      </div>
+      
+      <!-- PRINTER -->
+      <div class="swiper-slide">
+        <img src="img/printer.JPG">
+        <div class="content">
+          <h1>
+            Printer<br>
+            <span>18 Agustus 2023</span>
+          </h1>
+          <p>
+            Dalam menyambut kehadiran mahasiswa baru, Himakom melangsungkan acara "Program Orientasi Ilmu Komputer" khusus untuk mahasiswa baru. Printer dirancang sebagai platform interaktif yang menyambut mahasiswa baru Ilmu Komputer dengan hangat. Acara ini menampilkan serangkaian kegiatan yang bertujuan untuk memberikan pemahaman mendalam mengenai lingkungan akademis dan kehidupan di jurusan Ilmu Komputer. Sesi orientasi mencakup pengenalan terhadap fakultas dan staf pengajar, fasilitas kampus, serta program-program studi yang tersedia.
+            <br><br>
+            Dengan Printer, Himakom berkomitmen untuk menyambut mahasiswa baru dengan hangat dan membantu mereka merasa nyaman dalam lingkungan akademis Ilmu Komputer. Acara ini dapat menjadi fondasi yang kokoh bagi mahasiswa baru untuk tumbuh dan berkembang selama masa studi mereka di Universitas Lampung.
+          </p>
+        </div>
+      </div>
+
+      <!-- PELATIHAN ASDOS -->
+      <div class="swiper-slide">
+        <img src="img/pelatihanasdos.jpg">
+        <div class="content">
+          <h1>
+            Pelatihan Asdos<br>
+            <span>26 Agustus 2023</span>
+          </h1>
+          <p>
+            Dalam rangka meningkatkan kualitas pengajaran dan keterampilan asisten dosen di Ilmu Komputer, Himakom melangsungkan Pelatihan Asisten Dosen yang dirancang sebagai forum interaktif yang menghadirkan pemateri ahli di bidang pendidikan dan teknologi untuk memberikan wawasan mendalam dan keterampilan praktis kepada para asisten dosen. Tujuannya adalah meningkatkan kemampuan mereka dalam mendukung proses pembelajaran di kelas.
+            <br><br>
+            Selain itu, Pelatihan Asisten Dosen memberikan kesempatan bagi para peserta untuk berbagi pengalaman dan tantangan yang mereka hadapi dalam peran sebagai pendamping dosen. Sesi-sesi diskusi kelompok menciptakan ruang untuk bertukar ide dan solusi, membangun jaringan yang kuat di antara asisten dosen. Pelatihan ini juga mencakup sesi praktik langsung, di mana asisten dosen dapat mengaplikasikan konsep-konsep yang telah mereka pelajari. Melalui Pelatihan ini, setiap peserta dapat merasa lebih percaya diri dan siap menghadapi tantangan dalam mendukung proses pembelajaran di lingkungan Ilmu Komputer.
+          </p>
+        </div>
+      </div>
+
+      <!-- KOKOM -->
+      <div class="swiper-slide">
+        <img src="img/kokom.jpg">
+        <div class="content">
+          <h1>
+            KOKOM<br>
+            <span>23 - 29 September 2023</span>
+          </h1>
+          <p>
+            KOKOM (Kompetisi Olahraga Ilmu Komputer) dihadirkan sebagai sarana untuk membaurkan semangat kompetisi dan kebersamaan di antara mahasiswa Ilmu Komputer. Para peserta dapat mengikuti lomba badminton untuk mengukur keahlian olahraga mereka, menunjukkan kepiawaian dalam permainan futsal, dan merasakan intensitas persaingan dalam turnamen Mobile Legend dan Valorant.
+            <br><br>
+            Selain dari aspek kompetisi, KOKOM juga merupakan kesempatan bagi mahasiswa Ilmu Komputer untuk bersosialisasi dan membangun jaringan dalam suasana yang santai. Acara ini dapat menciptakan iklim positif di antara mahasiswa dan memperkuat rasa kebersamaan dalam lingkungan kampus. KOKOM bukan hanya tentang piala dan penghargaan, tetapi juga tentang meningkatkan semangat kebersamaan dan mempererat hubungan di antara komunitas Ilmu Komputer. Himakom mengajak seluruh mahasiswa Ilmu Komputer untuk merayakan kegembiraan olahraga dan persahabatan dalam acara KOKOM yang penuh semangat ini.
+        </div>
+      </div>
+
+      <!-- FOSI ASDOS -->
+      <div class="swiper-slide">
+        <img src="img/fosiasdos.JPG">
+        <div class="content">
+          <h1>
+            Fosi Asdos<br>
+            <span>25 September 2023</span>
+          </h1>
+          <p>
+            FoSi Asdos hadir sebagai wadah yang mengumpulkan para asisten dosen Ilmu Komputer untuk saling berbagi pengalaman, pengetahuan, dan membangun solidaritas yang erat. Acara ini mencakup sesi diskusi hingga bermain games yang dirancang untuk memfasilitasi pertukaran ide dan pemahaman yang lebih baik di antara asisten dosen. Selain itu, FoSi Asdos juga memberikan kesempatan bagi para asisten dosen untuk mengenal satu sama lain, membangun jejaring, dan membentuk tim kerja yang sinergis. Acara ini bertujuan untuk menciptakan lingkungan kerja yang positif dan mendukung, yang pada gilirannya dapat meningkatkan kualitas pengajaran di lingkungan Ilmu Komputer.
+            <br><br>
+            Puncak acara FoSi Asdos menjadi sesi penutupan yang penuh semangat, di mana para peserta dapat merayakan keberhasilan pertemuan ini sambil menyusun rencana untuk kolaborasi dan pengembangan lebih lanjut di masa mendatang. Himakom mengundang seluruh asisten dosen Ilmu Komputer untuk bersama-sama membangun jaringan yang kuat dan berkontribusi pada peningkatan kualitas pendidikan di lingkungan kampus.
+          </p>
+        </div>
+      </div>
+      
+      <!-- PEER GROUP -->
+      <div class="swiper-slide">
+        <img src="img/peer.jpg">
+        <div class="content">
+          <h1>
+            Peer Group<br>
+            <span>11 November - 30 Desember 2023</span>
+          </h1>
+          <p>
+            Dengan semangat belajar yang tak terbatas, Himakom menyelenggarakan Peer Group, yaitu inisiatif pembelajaran tambahan di luar kampus yang bertujuan untuk menciptakan lingkungan belajar yang kolaboratif dan inspiratif. Acara ini diarahkan untuk memberikan ruang bagi mahasiswa Ilmu Komputer untuk saling mendukung dan memotivasi satu sama lain dalam perjalanan akademis mereka. Sesi-sesi dalam Peer Group mencakup diskusi kelompok serta kegiatan-kegiatan praktis yang memperdalam pemahaman konsep-konsep penting. Setiap anggota peer group dapat berkontribusi dengan pengetahuan dan keterampilan yang mereka miliki, menciptakan suasana yang dinamis dan saling memberdayakan.
+            <br><br>
+            Melalui Peer Group, Himakom ingin mendorong semangat kolaborasi dan pertukaran pengetahuan di antara mahasiswa Ilmu Komputer. Acara ini dapat menjadi sarana yang bermanfaat untuk memperluas wawasan, meningkatkan keterampilan, dan memberikan dukungan yang dibutuhkan oleh setiap anggota kelompok.
+          </p>
+        </div>
+      </div>
+      
+      <!-- PRJ -->
+      <div class="swiper-slide">
+        <img src="img/prj.JPG">
+        <div class="content">
+          <h1>
+            PRJ x HT XI<br>
+            <span>14 - 22 Oktober 2023</span>
+          </h1>
+          <p>
+            Dengan penuh semangat menyambut Tahun Himakom, Himakom mempersembahkan acara unggulan "PRJ XI (Pekan Raya Jurusan) x HT (Himakom Tournament)". Acara ini akan menjadi puncak perayaan dan kompetisi yang menyatukan kecerdasan Ilmu Komputer dan semangat olahraga. Acara ini bukan hanya tentang persaingan, tetapi juga memberikan kesempatan bagi para peserta untuk merayakan prestasi, membangun jejaring, dan menciptakan kenangan yang tak terlupakan.
+            <br><br>
+            PRJ X x HT membawa konsep inovatif yang menggabungkan perlombaan Ilmu Komputer dan turnamen olahraga dalam satu kesatuan. Dalam rangka perlombaan Ilmu Komputer, para peserta dapat mengikuti perlombaan CPC, LCT, Photography, serta Essay. Sementara itu, dalam bidang olahraga, HT (Himakom Tournament) akan menyajikan lomba-lomba yang melibatkan semangat kompetitif dalam rangka meningkatkan kesehatan dan kebugaran. Perlombaan ini mencakup berbagai cabang, seperti futsal, badminton, dan lomba e-sports seperti Mobile Legend dan PES.
+          </p>
+        </div>
+      </div>
+      
+      <!-- MADING -->
+      <div class="swiper-slide">
+        <img src="img/mading.jpg">
+        <div class="content">
+          <h1>
+            Mading Himakom<br>
+            <span>16 Oktober 2023</span>
+          </h1>
+          <p>
+            Menciptakan media visual yang menarik dan informatif di ruang publik kampus adalah tujuan Himakom dalam rangka mendokumentasikan dan membagikan momen-momen berharga Himakom kepada seluruh anggota dan mahasiswa Ilmu Komputer. Mading Himakom akan menjadi galeri yang hidup, menampilkan foto-foto kegiatan dan peristiwa penting yang melibatkan anggota Himakom. Selain itu, mading juga akan memberikan informasi mengenai kegiatan-kegiatan dan prestasi anggota Himakom.
+            <br><br>
+            Selain sebagai media dokumentasi, program ini menjadi sarana komunikasi yang efektif antara Himakom dan mahasiswa Ilmu Komputer lainnya. Informasi mengenai acara, proyek, dan prestasi akan disampaikan dengan cara yang menarik, sehingga dapat menarik perhatian dan partisipasi lebih banyak mahasiswa. Mading ini juga menjadi bukti nyata kegiatan dan pencapaian Himakom, serta menjadi inspirasi bagi anggota baru dan seluruh mahasiswa Ilmu Komputer di kampus ini.
+          </p>
+        </div>
+      </div>
+      
+      <!-- LKMMIK -->
+      <div class="swiper-slide">
+        <img src="img/lkmmik.JPG">
+        <div class="content">
+          <h1>
+            LKMMIK Tingkat Pradasar<br>
+            <span>21 Oktober 2023</span>
+          </h1>
+          <p>
+            "Latihan Keterampilan dan Manajemen Mahasiswa Ilmu Komputer" tingkat pradasar diselenggarakan oleh Himakom sebagai perkenalan yang komprehensif dan interaktif untuk membantu mahasiswa baru Ilmu Komputer beradaptasi dengan lingkungan kampus dan memahami aspek-aspek penting dalam kehidupan mahasiswa. Acara ini mencakup serangkaian kegiatan yang bertujuan untuk mengembangkan keterampilan, pemahaman, dan koneksi sosial mahasiswa baru.
+            <br><br>
+            LKMMIK Pradasar bukan hanya tentang informasi dan pelatihan, tetapi juga tentang memperkenalkan mahasiswa baru pada semangat kebersamaan dan keakraban di lingkungan Ilmu Komputer. Kami berharap bahwa melalui acara ini, mahasiswa baru dapat merasa lebih siap menghadapi tantangan dan mengambil peran aktif dalam kehidupan kampus. Himakom mengundang seluruh mahasiswa baru Ilmu Komputer untuk bergabung dalam LKMMIK Pradasar, memulai perjalanan mereka di dunia akademis dan kemahasiswaan dengan semangat dan keyakinan. 
+          </p>
+        </div>
+      </div>
+
+      <!-- KOPERASI -->
+      <div class="swiper-slide">
+        <img src="img/bku.jpg">
+        <div class="content">
+          <h1>
+            Koperasi Himakom dan BKU<br>
+            <span>2023</span>
+          </h1>
+          <p>
+            Dengan semangat kolaborasi dan jiwa kewirausahaan, Himakom meluncurkan program kerja yang ambisius, yaitu "Koperasi Himakom" dan "BKU (bussiness Kewirausahaan)". Program ini bertujuan untuk membangun kerangka kerja koperasi di antara anggota Himakom, menggali potensi bisnis kreatif, dan meningkatkan kolaborasi di bidang kewirausahaan. Progresif Koperasi Himakom menjadi wahana bagi mahasiswa Ilmu Komputer untuk saling mendukung dan mengembangkan ide-ide bisnis inovatif. Melalui Progresif Koperasi Himakom, para anggota berupaya membangun sinergi yang kuat di antara anggota Himakom dalam menciptakan platform bisnis yang berkelanjutan.
+            <br><br>
+            Dengan langkah-langkah proaktifnya, Himakom bertekad untuk membentuk lingkungan yang memperkuat semangat kewirausahaan di kalangan mahasiswa Ilmu Komputer. Progresif Koperasi Himakom tidak hanya menjadi sebuah program, melainkan perwujudan dari komitmen untuk mendorong mahasiswa Ilmu Komputer menjadi wirausahawan yang tangguh dan kreatif.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-button-next" color="#eecb00"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
